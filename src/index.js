@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 // Components
-import Header from './header';
+import Header from './Header';
 
 const App = () => {
   return (
