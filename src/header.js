@@ -1,12 +1,12 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-const Header = () => {
-    return (
-        <header>
-            <p>React App</p>
-            <input />
-        </header>
-    )
+class Header extends Component {
+    render() {
+        return (
+            <h1>React Header</h1>
+        )
+    }
 }
 
 export default Header;
+
